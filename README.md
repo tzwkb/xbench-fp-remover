@@ -1,5 +1,44 @@
 # Xbench 误报清理工具
 
+<!-- bilingual-readme:start -->
+
+## 双语说明 / Bilingual Documentation
+
+> 本节提供整篇 README 的中英双语维护说明；下方保留原始详细说明、命令、路径和配置示例。
+> This section provides bilingual maintenance notes for the full README; the original detailed notes, commands, paths, and configuration examples are preserved below.
+
+### 中文
+
+**概览**：Xbench 误报清理工具，从 pending 文件中批量删除已标记为误报的 QA 条目，并保留原文件格式与样式。
+
+**主要能力**：
+- 读取已标记误报的报告。
+- 批量删除 pending 文件中的对应条目。
+- 尽量保留原 Excel 格式和样式。
+
+**使用方式**：按 README 说明准备 pending 文件和误报标记表后运行清理脚本。
+
+**状态**：该仓库仍按当前 README 的说明维护或使用。
+
+**注意事项**：清理前建议备份原始 QA 文件。
+
+### English
+
+**Overview**: Xbench false-positive removal tool that batch-deletes flagged QA entries from pending files while preserving file formatting and styles.
+
+**Key capabilities**:
+- Reads reports with flagged false positives.
+- Deletes matching entries from pending files in batch.
+- Preserves original Excel formatting and styles where possible.
+
+**Usage**: Prepare pending files and false-positive marker reports according to the README, then run the cleanup script.
+
+**Status**: This repository is maintained or used according to the current README notes.
+
+**Notes**: Back up original QA files before cleanup.
+
+<!-- bilingual-readme:end -->
+
 从 Xbench QA 报告中批量删除已标记为误报的条目，保留原文件格式与样式。
 
 ## 原理
