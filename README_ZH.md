@@ -1,7 +1,10 @@
 # Xbench 误报清理工具
 
-[English](README.md) | 中文
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Xbench](https://img.shields.io/badge/Xbench-QA%20workflow-blueviolet.svg)](https://www.xbench.net/)
 
+[English](README.md) | 中文
 
 从 Xbench QA 报告中批量删除已标记为误报的条目，保留原文件格式与样式。
 
