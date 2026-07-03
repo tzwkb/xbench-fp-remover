@@ -20,10 +20,6 @@ English | [中文](README_ZH.md)
 
  Prepare pending files and false-positive marker reports according to the README, then run the cleanup script.
 
-## Status
-
- This repository is maintained or used according to the current README notes.
-
 ## Notes
 
  Back up original QA files before cleanup.
@@ -43,7 +39,3 @@ python remove_fp.py --ref <reference-file> --input <input-file> [--output <outpu
 ```
 python remove_fp.py --ref "modified-Xbench_QA.xls" --input "Xbench_QA.xls"
 ```
-
-## Detailed Technical Notes
-
-This README keeps the English version of the core documentation. Code blocks, paths, commands, and file-layout examples are kept literal so they can be copied and checked against the repository.
