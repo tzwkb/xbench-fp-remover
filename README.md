@@ -34,11 +34,11 @@ pip install -r requirements.txt
 ```
 
 ```
-python remove_fp.py --ref <对照文件> --input <待处理文件> [--output <输出路径>]
+python remove_fp.py --ref <reference-file> --input <input-file> [--output <output-path>]
 ```
 
 ```
-python remove_fp.py --ref "已修改-Xbench_QA.xls" --input "Xbench_QA.xls"
+python remove_fp.py --ref "modified-Xbench_QA.xls" --input "Xbench_QA.xls"
 ```
 
 ## Detailed Technical Notes
