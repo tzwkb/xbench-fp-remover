@@ -46,4 +46,4 @@ python remove_fp.py --ref "modified-Xbench_QA.xls" --input "Xbench_QA.xls"
 
 ## Detailed Technical Notes
 
-The primary README keeps the original technical details, history notes, full commands, and file layout. This file maintains the English version of the core documentation; consult the primary README code blocks and paths when exact commands are needed.
+This README keeps the English version of the core documentation. Code blocks, paths, commands, and file-layout examples are kept literal so they can be copied and checked against the repository.
