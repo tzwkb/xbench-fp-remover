@@ -1,6 +1,6 @@
 # Xbench 误报清理工具
 
-中文 | [English](README.md)
+[English](README.md) | 中文
 
 
 从 Xbench QA 报告中批量删除已标记为误报的条目，保留原文件格式与样式。
